@@ -1,17 +1,17 @@
 proxies:
-- name: danuWs01-Vision+
+- name: danuWs01-Vision++
   type: trojan
   server: sg-ctn.sshpremium.my.id
   port: 443
   password: aac6f2f6-7f6a-4dd9-a014-8c55f9bf3b61
   udp: true
-  sni: visionplus.id
+  sni: sb.scorecardresearch.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: visionplus.id
+      Host: sb.scorecardresearch.com
 - name: danuWs10-Vision+
   type: trojan
   server: sg-ctn.sshpremium.my.id
