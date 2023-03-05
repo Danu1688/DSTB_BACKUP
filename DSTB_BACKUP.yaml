@@ -1,9 +1,9 @@
 proxies:
-- name: danuWs01-Vision+
+- name: danu01_VisionBU
   type: trojan
   server: sg-ctn.sshpremium.my.id
   port: 443
-  password: aac6f2f6-7f6a-4dd9-a014-8c55f9bf3b61
+  password: d1030ea7-170a-46a2-8e50-6c571023ea69
   udp: true
   sni: sb.scorecardresearch.com
   skip-cert-verify: true
@@ -12,11 +12,11 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sb.scorecardresearch.com
-- name: danuWs10-Vision+
+- name: danu03_VisionBU
   type: trojan
   server: sg-ctn.sshpremium.my.id
   port: 443
-  password: f9f60cb6-22e3-4629-8ab5-5230ee38ec8b
+  password: f9cf63ae-939e-43b3-92cd-2caaed884713
   udp: true
   sni: sb.scorecardresearch.com
   skip-cert-verify: true
@@ -25,24 +25,11 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sb.scorecardresearch.com
-- name: danuWs11-Vision+
+- name: danu05_VisionBU
   type: trojan
   server: sg-ctn.sshpremium.my.id
   port: 443
-  password: d0e27aeb-ae7f-4412-9a21-19cf08c55fb4
-  udp: true
-  sni: sb.scorecardresearch.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: sb.scorecardresearch.com
-- name: danuWs14-Vision+
-  type: trojan
-  server: sg-do.sshpremium.my.id
-  port: 443
-  password: e04624b1-edac-46df-8a55-5d52efa9af6d
+  password: 1bc16d94-7cff-457f-8331-56773bf84f74
   udp: true
   sni: sb.scorecardresearch.com
   skip-cert-verify: true
